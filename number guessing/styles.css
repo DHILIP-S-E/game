@@ -1,0 +1,93 @@
+html {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #8fadd0, #85b3e1);
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #a6cadb;
+}
+
+p { 
+  font-size: 1.2em;
+  color: #555;
+  margin: 10px 0;
+}
+
+.input-range, .form {
+  margin-bottom: 20px;
+}
+
+.input-range label {
+  display: block;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.input-range input[type="number"], .form input[type="number"] {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  border: 2px solid #5fd4ff;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+input[type="submit"], button {
+  padding: 12px 24px;
+  border: none;
+  background-color: #1094cc;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #3308f2;
+}
+
+.resultParas p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.lastResult {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #333;
+}
+
+.game-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.guesses {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
